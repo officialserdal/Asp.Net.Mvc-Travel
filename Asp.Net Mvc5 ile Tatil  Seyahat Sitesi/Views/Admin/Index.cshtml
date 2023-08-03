@@ -1,0 +1,36 @@
+﻿@using Asp.Net_Mvc5_ile_Tatil__Seyahat_Sitesi.Models.Sınıflar
+@model List<Blog>
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h2>Blog Listesi</h2>
+<br />
+<table class="table table-bordered"
+    <tr>
+        <th> ID</th>
+        <th> BAŞLIK</th>
+        <th> SİL</th>
+        <th> GÜNCELLE</th>
+        <th> DETAYLAR</th>
+    </tr>
+    @foreach (var x in Model)
+    {
+
+<tr>
+
+    <td>@x.ID</td>
+    <td>@x.Baslık</td>
+    <td><a href="#" class="btn btn-danger" style="color:papayawhip">Sil</a></td>
+    <td><a href="#" class="btn btn-warning" style="color:green">Güncelle</a></td>
+    <td><a href="#" class="btn btn-default" style="color:green">Detaylar</a></td>
+
+
+
+
+</tr>
+    }
+
+</table>
+<a href="/Admin/YeniBlog"class="btn  btn-primary" style="background-color:darkblue;color:papayawhip">Yeni Blog</a>
