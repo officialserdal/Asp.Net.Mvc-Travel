@@ -29,6 +29,23 @@ namespace Asp.Net_Mvc5_ile_Tatil__Seyahat_Sitesi.Controllers
             return View(by);
 
         }
+        [HttpGet]
+        public PartialViewResult YorumYap()
+        {
+            return PartialView();
+
+        }
+
+
+
+        [HttpPost]
+        public PartialViewResult YorumYap(Yorumlar y)
+        {
+            c.Yorumlars.Add(y);
+            c.SaveChanges();
+            return PartialView();
+
+        }
     }
 
 }
