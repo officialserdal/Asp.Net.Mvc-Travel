@@ -30,8 +30,9 @@ namespace Asp.Net_Mvc5_ile_Tatil__Seyahat_Sitesi.Controllers
 
         }
         [HttpGet]
-        public PartialViewResult YorumYap()
+        public PartialViewResult YorumYap(int id)
         {
+            ViewBag.deger = id;
             return PartialView();
 
         }

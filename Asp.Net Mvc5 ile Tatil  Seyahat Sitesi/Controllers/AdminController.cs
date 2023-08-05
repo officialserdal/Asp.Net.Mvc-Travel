@@ -11,7 +11,7 @@ namespace Asp.Net_Mvc5_ile_Tatil__Seyahat_Sitesi.Controllers
     {
         // GET: Admin
         Context c = new Context();
-
+        [Authorize]
         public ActionResult Index()
         {
             var degerler = c.Blogs.ToList();
@@ -57,6 +57,37 @@ namespace Asp.Net_Mvc5_ile_Tatil__Seyahat_Sitesi.Controllers
 
 
         }
+        public ActionResult YorumListesi()
+        {
+            var yorumlar = c.Yorumlars.ToList();
+            return View(yorumlar);
+
+        }
+        public ActionResult YorumSil(int id)
+        {
+            var b = c.Yorumlars.Find(id);
+            c.Yorumlars.Remove(b);
+            c.SaveChanges();
+            return RedirectToAction("YorumListesi");
+
+        }
+        public ActionResult YorumGetir(int id)
+        {
+            var yr = c.Yorumlars.Find(id);
+            return View("YorumGetir", yr);
+
+        }
+        public ActionResult YorumGuncelle(Yorumlar y)
+        {
+            var yrm = c.Yorumlars.Find(y.ID);
+            yrm.KullanıcıAdı = y.KullanıcıAdı;
+            yrm.Maıl = y.Maıl;
+            yrm.Yorum = y.Yorum;
+            c.SaveChanges();
+            return RedirectToAction("YorumListesi");
+          
+        }
+
 
 
     }
