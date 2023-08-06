@@ -6,20 +6,14 @@ using System.Web;
 
 namespace Asp.Net_Mvc5_ile_Tatil__Seyahat_Sitesi.Models.Sınıflar
 {
-    public class iletisim
+    public class Oteller
     {
         [Key]
-        public int ID { get; set; }
-        public string AdSoyad { get; set; }
-
-        public string Maıl { get; set; }
-        public string Konu { get; set; }
-        public string Mesaj { get; set; }
+        public int İD { get; set; }
+        public string OtelAdi { get; set; }
         public string fotourl { get; set; }
-
-
+        public string Açiklama { get; set; }
 
 
     }
-    
 }

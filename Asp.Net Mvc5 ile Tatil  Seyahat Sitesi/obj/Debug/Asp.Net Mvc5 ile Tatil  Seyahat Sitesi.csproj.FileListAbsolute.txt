@@ -159,7 +159,6 @@ C:\Users\srdl_\Documents\GitHub\Asp.Net.Mvc-Travel\Asp.Net Mvc5 ile Tatil  Seyah
 C:\Users\srdl_\Documents\GitHub\Asp.Net.Mvc-Travel\Asp.Net Mvc5 ile Tatil  Seyahat Sitesi\bin\Newtonsoft.Json.xml
 C:\Users\srdl_\Documents\GitHub\Asp.Net.Mvc-Travel\Asp.Net Mvc5 ile Tatil  Seyahat Sitesi\bin\Antlr3.Runtime.pdb
 C:\Users\srdl_\Documents\GitHub\Asp.Net.Mvc-Travel\Asp.Net Mvc5 ile Tatil  Seyahat Sitesi\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-C:\Users\srdl_\Documents\GitHub\Asp.Net.Mvc-Travel\Asp.Net Mvc5 ile Tatil  Seyahat Sitesi\obj\Debug\Asp.Net Mvc5 ile Tatil  Seyahat Sitesi.csproj.AssemblyReference.cache
 C:\Users\srdl_\Documents\GitHub\Asp.Net.Mvc-Travel\Asp.Net Mvc5 ile Tatil  Seyahat Sitesi\obj\Debug\Asp.Net Mvc5 ile Tatil  Seyahat Sitesi.csproj.CoreCompileInputs.cache
 C:\Users\srdl_\Documents\GitHub\Asp.Net.Mvc-Travel\Asp.Net Mvc5 ile Tatil  Seyahat Sitesi\obj\Debug\Asp.Net Mvc5 ile Tatil  Seyahat Sitesi.csproj.CopyComplete
 C:\Users\srdl_\Documents\GitHub\Asp.Net.Mvc-Travel\Asp.Net Mvc5 ile Tatil  Seyahat Sitesi\obj\Debug\Asp.Net Mvc5 ile Tatil  Seyahat Sitesi.dll

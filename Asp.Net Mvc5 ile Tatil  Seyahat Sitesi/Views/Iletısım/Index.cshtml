@@ -1,0 +1,26 @@
+﻿@using Asp.Net_Mvc5_ile_Tatil__Seyahat_Sitesi.Models.Sınıflar
+@model List<iletisim>
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_TestLayout.cshtml";
+}
+
+<div class="content">
+    <div class="wrap">
+        <div class="about">
+            <h3>İletişim</h3>
+            @foreach (var x in Model)
+            {
+                <img src="@x.fotourl" alt="" />
+
+                <p>@x.AdSoyad </p>
+                <p>@x.Maıl </p>
+                <p>@x.Mesaj </p>
+                <p>@x.Konu </p>
+               
+            }
+
+
+        </div>
+    </div>
+</div>

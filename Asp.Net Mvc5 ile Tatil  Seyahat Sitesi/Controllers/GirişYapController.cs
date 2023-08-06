@@ -42,5 +42,11 @@ namespace Asp.Net_Mvc5_ile_Tatil__Seyahat_Sitesi.Controllers
             }
 
         }
+        public ActionResult LogOut()
+        {
+            FormsAuthentication.SignOut();
+            return RedirectToAction("Login", "GirişYap");
+
+        }
     }
 }
