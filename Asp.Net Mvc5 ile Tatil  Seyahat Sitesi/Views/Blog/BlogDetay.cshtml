@@ -30,7 +30,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
     <!--end slider -->
     <!--script-->
 
-   
+
 </head>
 <body>
     <!---header---->
@@ -46,29 +46,30 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                     {
 
 
-                    <img src="@x.BlogImage" alt="" style="margin-bottom:20px" />
-                    <h2> @x.Baslık></h2> 
-                    <p>
-                       @x.Acıklama
-                    </p>
+                        <img src="@x.BlogImage" alt="" style="margin-bottom:20px" />
+                        <h2> @x.Baslık</h2>
+                        <p>
+                            @x.Acıklama
+                        </p>
                     }
                 </div>
                 @foreach (var y in Model.deger2)
                 {
 
-                <ul class="comment-list">
+                    <ul class="comment-list">
 
-                    <li>
-                        <img src="~/web2/images/avatar.png" class="img-responsive" alt="">
-                        <div class="desc">
-                            <p>@y.KullanıcıAdı  @y.Yorum</p>
-                        </div>
-                        <div class="clearfix"></div>
-                    </li>
-                </ul>
-                  }
-               
-                @Html.Action("YorumYap","Blog")
+                        <li>
+                            <img src="~/web2/images/avatar.png" class="img-responsive">
+                            <div class="desc">
+                                <p><b>@y.KullanıcıAdı :</b> @y.Yorum</p>
+                            </div>
+                            <div class="clearfix"></div>
+                        </li>
+                    </ul>
+
+                }
+
+                @Html.Action("YorumYap", "Blog")
             </div>
 
             <div class="col-md-4 side-content">
@@ -82,7 +83,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                     </ul>
                 </div>
 
-               for <div class="comments">
+               <div class="comments">
                     <h3>RECENT COMMENTS</h3>
                     <ul>
                         <li><a href="#">Amada Doe </a> on <a href="#">Hello World!</a></li>

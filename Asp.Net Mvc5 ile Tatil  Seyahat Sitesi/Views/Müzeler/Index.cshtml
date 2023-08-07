@@ -1,0 +1,24 @@
+﻿@using Asp.Net_Mvc5_ile_Tatil__Seyahat_Sitesi.Models.Sınıflar
+@model List<Müzeler>
+
+    @{
+        ViewBag.Title = "Index";
+        Layout = "~/Views/Shared/_TestLayout.cshtml";
+    }
+
+    <div class="content">
+        <div class="wrap">
+            <div class="about">
+                <h3>MÜZELER</h3>
+                @foreach (var x in Model.Where(x => x.İD >= 1 && x.İD <= 4))
+                {
+                    <p style="font-size:18px; color:darkblue,">@x.MüzeAdi</p>
+
+                    <img src="@x.fotourl" alt="" style="max-width: 500px; " />
+                    <p>@x.Açiklama</p>
+                }
+            </div>
+        </div>
+    </div>
+
+

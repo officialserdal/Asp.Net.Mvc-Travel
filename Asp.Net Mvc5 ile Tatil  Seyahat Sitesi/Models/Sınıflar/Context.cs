@@ -18,6 +18,9 @@ namespace Asp.Net_Mvc5_ile_Tatil__Seyahat_Sitesi.Models.Sınıflar
         public DbSet<Yorumlar> Yorumlars { get; set; }
         public DbSet<Oteller> Otellers { get; set; }
         public DbSet<Rehber> Rehbers { get; set; }
+        public DbSet<Müzeler> Müzelers { get; set; }
+        public DbSet<Restoranlar> Restoranlars { get; set; }
+
 
 
 

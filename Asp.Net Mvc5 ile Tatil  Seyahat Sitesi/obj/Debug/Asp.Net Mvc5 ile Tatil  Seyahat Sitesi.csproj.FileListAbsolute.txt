@@ -163,3 +163,4 @@ C:\Users\srdl_\Documents\GitHub\Asp.Net.Mvc-Travel\Asp.Net Mvc5 ile Tatil  Seyah
 C:\Users\srdl_\Documents\GitHub\Asp.Net.Mvc-Travel\Asp.Net Mvc5 ile Tatil  Seyahat Sitesi\obj\Debug\Asp.Net Mvc5 ile Tatil  Seyahat Sitesi.csproj.CopyComplete
 C:\Users\srdl_\Documents\GitHub\Asp.Net.Mvc-Travel\Asp.Net Mvc5 ile Tatil  Seyahat Sitesi\obj\Debug\Asp.Net Mvc5 ile Tatil  Seyahat Sitesi.dll
 C:\Users\srdl_\Documents\GitHub\Asp.Net.Mvc-Travel\Asp.Net Mvc5 ile Tatil  Seyahat Sitesi\obj\Debug\Asp.Net Mvc5 ile Tatil  Seyahat Sitesi.pdb
+C:\Users\srdl_\Documents\GitHub\Asp.Net.Mvc-Travel\Asp.Net Mvc5 ile Tatil  Seyahat Sitesi\obj\Debug\Asp.Net Mvc5 ile Tatil  Seyahat Sitesi.csproj.AssemblyReference.cache

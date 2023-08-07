@@ -1,26 +1,28 @@
 ﻿@using Asp.Net_Mvc5_ile_Tatil__Seyahat_Sitesi.Models.Sınıflar
-@model List<Oteller>
+@model List<Restoranlar>
+
 @{
     ViewBag.Title = "Index";
     Layout = "~/Views/Shared/_TestLayout.cshtml";
 }
 
-
-<div class="content">
+<<div class="content">
     <div class="wrap">
         <div class="about">
-            <h3>OTELLER</h3>
-            @foreach (var x in Model.Where(x => x.İD >= 1 && x.İD <= 4))
+            <h3>RESTORANLAR</h3>
+            @foreach (var x in Model.Where(x => x.İD >= 1 && x.İD <= 3))
             {
-                <p style="font-size:18px; color:darkblue,">@x.OtelAdi</p>
+               <p style="font-size:18px; color:darkblue;">@x.RestoronAdi</p>
+
                 <img src="@x.fotourl" alt="" style="max-width: 500px; " />
                 <p>@x.Açiklama</p>
             }
+
+
+
+
         </div>
     </div>
 </div>
-
-
-
 
 

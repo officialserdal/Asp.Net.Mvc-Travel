@@ -21,9 +21,9 @@ namespace Asp.Net_Mvc5_ile_Tatil__Seyahat_Sitesi.Controllers
        
         public ActionResult BlogDetay(int id)
         {
-            //var blogbul = c.Blogs.Where(x => x.ID == id).ToList();
+            //var blogbul = c.Blogs.Where(x => x.ID == id).ToList(); bro dediğin gibi yayınla siteyi çok güzel bir bastit mvc sitesi çok güzel durur githubda tm kanka 
             by.deger1 = c.Blogs.Where(x => x.ID == id).ToList();
-            by.deger2 = c.Yorumlars.Where(x => x.ID == id).ToList();
+            by.deger2 = c.Yorumlars.Where(x => x.Blogid == id).ToList();
 
 
             return View(by);

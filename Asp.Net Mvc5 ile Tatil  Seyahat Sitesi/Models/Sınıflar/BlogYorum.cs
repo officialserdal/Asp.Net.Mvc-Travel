@@ -13,7 +13,7 @@ namespace Asp.Net_Mvc5_ile_Tatil__Seyahat_Sitesi.Models.Sınıflar
         public IEnumerable<Blog> deger3 { get; set; }
         public IEnumerable<Yorumlar> deger4 { get; set; }
         
-
+       
 
     }
 }
